@@ -1,0 +1,15 @@
+/* TodoList.css */
+.TodoList {
+    margin-top: 20px;
+}
+
+.Todo {
+    border: 1px solid #1d1c1c;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #999898;
+}
+
+.DragOver {
+    border: 5px dashed #d9ff00;
+}

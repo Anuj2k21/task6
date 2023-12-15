@@ -1,0 +1,61 @@
+/* TodoApp.css */
+.TodoApp {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100vh;
+  
+}
+
+.TodoForm {
+    margin-bottom: 20px;
+    width: 100%;
+     height:fit-content;
+    border: 5px solid black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(78, 89, 255);
+   
+
+   
+}
+
+.TodoForm label {
+  
+    padding: 12px;
+    margin-top: 10px;
+    font-weight: 900;
+    outline: none;
+}
+
+
+
+.TodoForm input,
+.TodoForm textarea,
+.TodoForm select {
+    width: 15%;
+    padding: 10px;
+    font-weight: 700;
+    background-color: rgb(231, 221, 238);
+}
+
+.TodoForm button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  
+}
+
+.TodoForm button:hover {
+    background-color: #45a049;
+}
+.todolist{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #a7fade;
+    padding:20px
+}
